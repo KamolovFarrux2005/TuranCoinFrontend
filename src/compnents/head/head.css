@@ -1,15 +1,13 @@
-
 .headComponent  {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0 0 10px 10px;
-    
 }
 
 .flexCardHead { 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 12px;
+    padding: 10px 5px;
 }
 
 .profileData {
