@@ -1,20 +1,25 @@
 import { useState, useEffect } from "react";
 import './center.css';
 const CenterComponent = () => {
-    const coinBalance = 0;
-    const [counter, setCounter] = useState(coinBalance);
+    const [counter, setCounter] = useState(0);
     const counterFunction = () => {
-        setCounter(counter + 1)
+        
+        if(counter !== 10){
+            setCounter(counter + 1)
+
+        } else{
+            alert("blockchain obi hayot :) bugungi limit tugadi!");
+        }
+
+        
     }
     return (
         <div className="center">
             <div className="counterCoinBalance">
-                <h2>{coinBalance} $TUC</h2>
+                <h2>{counter} $TUC</h2>
             </div>
             <div className="coinImageClicker">
-                <button className="btnCoinCounter" onClick={counterFunction}>
-                    <img src="" alt="coinlogo" />
-                </button>
+                <button className="btnCoinCounter" onClick={counterFunction} />
             </div>
         </div>
     )
