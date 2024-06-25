@@ -1,0 +1,10 @@
+.center{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.coinImageClicker > a > img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
