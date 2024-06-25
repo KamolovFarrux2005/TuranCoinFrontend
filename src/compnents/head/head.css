@@ -11,12 +11,12 @@
     padding: 10px 12px;
 }
 
-.flexCardHead > .profilePicture > img{
+.flexCardHead > .profileData > img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-.flexCardHead > .profileUsernam {
-    
+.flexCardHead > .profileData > h1 {
+    margin-left: 10px;
 }

@@ -9,11 +9,9 @@ const HeadComponent = ()=>{
 
     <div className="headComponent">
         <div className="flexCardHead">
-            <div className="profilePicture">
+            <div className="profileData">
                 <img src="https://www.turkicstates.org/assets/vendor/kcfinder/upload/images/turkkon-logo(1).png" alt="Logo" />
-            </div>
-            <div className="profileUsername">
-                John Doe
+                <h1>John Doe</h1>
             </div>
             <div className="coinShortName">
                 {coinShortName}
