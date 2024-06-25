@@ -1,22 +1,23 @@
-body{ 
+body {
     margin: 0;
     padding: 0;
-    text-align: center;
-}
-#root{
-    margin: 0;
-    padding: 0;
+    color: white;
     overflow: hidden;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
     background-color: #18122B;
     display: flex;
     justify-content: center;
-    color: white;
+    align-items: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    width: 100%;
     height: 100vh;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100vh;
-    /* padding: 0  20px; */
+    text-align: center;
 }
