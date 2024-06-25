@@ -11,10 +11,10 @@ const HeadComponent = ()=>{
         <div className="flexCardHead">
             <div className="profileData">
                 <img src="https://www.turkicstates.org/assets/vendor/kcfinder/upload/images/turkkon-logo(1).png" alt="Logo" />
-                <h1>John Doe</h1>
+                <h2>John Doe</h2>
             </div>
             <div className="coinShortName">
-                {coinShortName}
+                <b>{coinShortName}</b>
             </div>
         </div>
     </div>

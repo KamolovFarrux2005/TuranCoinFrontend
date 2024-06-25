@@ -1,7 +1,8 @@
 
 .headComponent  {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0 0 10px 10px;
+    
 }
 
 .flexCardHead { 
@@ -11,12 +12,17 @@
     padding: 10px 12px;
 }
 
-.flexCardHead > .profileData > img{
+.profileData {
+    display: flex;
+}
+
+.profileData > img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-.flexCardHead > .profileData > h1 {
-    margin-left: 10px;
+.flexCardHead > .profileData > h2 {
+    font-size: 20px;
+    margin-left: 20px;
 }
