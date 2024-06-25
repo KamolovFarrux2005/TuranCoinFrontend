@@ -7,6 +7,8 @@ body{
     justify-content: center;
     color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
 }
 .container{
     width: 100%;
