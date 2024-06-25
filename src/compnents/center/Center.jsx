@@ -12,9 +12,9 @@ const CenterComponent = () => {
                 <h2>{coinBalance} $TUC</h2>
             </div>
             <div className="coinImageClicker">
-                <a href="#" onClick={counterFunction}>
-                    <img src="https://www.turkicstates.org/assets/vendor/kcfinder/upload/images/turkkon-logo(1).png" alt="coinlogo" />
-                </a>
+                <button className="btnCoinCounter" onClick={counterFunction}>
+                    <img src="" alt="coinlogo" />
+                </button>
             </div>
         </div>
     )

@@ -10,9 +10,13 @@
     margin: 0 auto;
 }
 
-.coinImageClicker > a > img{
+.coinImageClicker > button{
     width: 100%;
     height: 100%;
     border-radius: 50%;
     
+}
+
+.btnCoinCounter{
+    background-image: url('https://www.turkicstates.org/assets/vendor/kcfinder/upload/images/turkkon-logo(1).png');
 }
